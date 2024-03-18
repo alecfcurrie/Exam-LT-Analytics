@@ -1,7 +1,7 @@
 # Exam-LT-Analytics
 A program for sythesizing data about learning technologies used in exams from exam info csvs.
 
-## How to use:
+## How to use
 
 Make sure the exam spreadsheets are exported as CSVs. The input folder should include:
 
@@ -21,7 +21,7 @@ Make sure that the column headings for the appropriate columns are written exact
 - MT LT
 - MT Invig LT
 - FE LT
-- FE LT
+- FE Invig LT
 
 These headings are case-sensitive, and can not have trailing spaces.
 
