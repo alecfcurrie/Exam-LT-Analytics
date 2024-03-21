@@ -67,10 +67,10 @@ def generate_data(pair_dict, data_path):
 def write_file(output_path, data_dict):
     with open(output_path, 'w', newline = '' ) as file:
         writer = csv.writer(file)
-        field = ["LT Used", "Invig Used", "Count"]
+        field = ["LT Used", "Invig Used", "LT | Invig Used", "Count"]
         writer.writerow(field)
         for data_pair, count in data_dict.items():
-            writer.writerow([data_pair.lt_used, data_pair.invig_used, count])
+            writer.writerow([data_pair.lt_used, data_pair.invig_used, data_pair.lt_used + " | " + data_pair.invig_used, count])
 
 
 def generate_all_data(out_path_2022s, out_path_2022w1, out_path_2022w2, out_path_2023s, out_path_2023w1, out_path_2023w2):
