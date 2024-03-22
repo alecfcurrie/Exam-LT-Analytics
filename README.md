@@ -47,8 +47,8 @@ git clone [add link once under scienceltrs repo]
    ```
 5. In collect_data.py, add the output and input paths following the same format in:
    ```
-   dataSetMT
-   dataSetFet 
+   dataSetMt
+   dataSetFe 
     ```
 ## Acknowledgments
 
