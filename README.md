@@ -38,18 +38,23 @@ git clone [add link once under scienceltrs repo]
 3. If **NEW** exam spreadsheets are added, make the following changes:
 4. In path_names.py, add the new CSV(s) as follows
    ```
-   path_yearTerm = 'input/filename.csv
-   path_yearTerm = os,path.abspath(path_yearTerm)
-   mt_yearTerm_path = 'output/mt_yearTerm_output.csv'
-   mt_yearTerm_path = os.path.abspath(mt_yearTerm_path)
-   fe_yearTerm_path = 'output/fe_yearTerm_output.csv'
-   fe_yearTerm_path = os.path.abspath(fe_yearTerm_path)
+   path_yearTerm    =  'input/filename.csv
+   path_yearTerm    =   os.path.abspath(path_yearTerm)
+   mt_yearTerm_path =  'output/mt_yearTerm_output.csv'
+   mt_yearTerm_path =   os.path.abspath(mt_yearTerm_path)
+   fe_yearTerm_path =  'output/fe_yearTerm_output.csv'
+   fe_yearTerm_path =   os.path.abspath(fe_yearTerm_path)
    ```
-5. In collect_data.py, add the output and input paths following the same format in:
+5. In collect_data.py, add the output and input paths (following the same format) in sets:
    ```
    dataSetMt
    dataSetFe 
     ```
+## Execute Program Using Terminal
+1. Open terminal. Using cd, change the directory to the cloned Exam-LT-Analytics folder
+2. Use pwd to verify your current directory
+3. Once in the Exam-LT-Analytics folder, type in terminal ```python collect_data.py```
+
 ## Acknowledgments
 
 The file pathNames was also taken from [SciPub Repository](https://github.com/scienceltrs/SciPub/blob/main/pathNames.py) and was modified for this project.
