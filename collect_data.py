@@ -99,9 +99,9 @@ dataSetFe = {
 
 def generate_all_data(dataSet):
     for outputPath, inputPath in dataSet.items():
-        generate_and_write_data(inputPath, outputPath)
+        generate_and_write_data(outputPath, inputPath)
 
-def generate_and_write_data(data_paths ,out_path):
+def generate_and_write_data(out_path ,data_paths):
     pair_dict = {}
     for data_path in data_paths:
         generate_data(pair_dict ,data_path)
