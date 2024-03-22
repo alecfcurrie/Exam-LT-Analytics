@@ -73,16 +73,16 @@ def write_file(output_path, data_dict):
             writer.writerow([data_pair.lt_used, data_pair.invig_used, data_pair.lt_used + " | " + data_pair.invig_used, count])
 
 dataSetMt = {
-    mt_2022s_path:[path_2022s1,path_2022s12,path_2022s2],
-    mt_2022w1_path:[path_2022w1,path_2022w12],
-    mt_2022w2_path: [path_2022w2],
-    mt_2023s_path: [path_2023s1, path_2023s12, path_2023s2],
-    mt_2023w1_path: [path_2023w1],
-    mt_2023w2_path: [path_2023w2]                 
+    mt_2022s_path   : [path_2022s1,path_2022s12,path_2022s2],
+    mt_2022w1_path  : [path_2022w1,path_2022w12],
+    mt_2022w2_path  : [path_2022w2],
+    mt_2023s_path   : [path_2023s1, path_2023s12, path_2023s2],
+    mt_2023w1_path  : [path_2023w1],
+    mt_2023w2_path  : [path_2023w2]                 
 }
 dataSetFe = {
-    fe_2022s_path  :[path_2022s1,path_2022s12,path_2022s2],
-    fe_2022w1_path :[path_2022w1,path_2022w12],
+    fe_2022s_path  : [path_2022s1,path_2022s12,path_2022s2],
+    fe_2022w1_path : [path_2022w1,path_2022w12],
     fe_2022w2_path : [path_2022w2],
     fe_2023s_path  : [path_2023s1, path_2023s12, path_2023s2],
     fe_2023w1_path : [path_2023w1],
