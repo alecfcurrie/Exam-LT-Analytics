@@ -50,6 +50,11 @@ git clone [add link once under scienceltrs repo]
    dataSetMt
    dataSetFe 
     ```
+## Execute Program Using Terminal
+1. Open terminal. Using cd, change the directory to the cloned Exam-LT-Analytics folder
+2. Use pwd to verify your current directory
+3. Once in the Exam-LT-Analytics folder, type in terminal ```python collect_data.py```
+
 ## Acknowledgments
 
 The file pathNames was also taken from [SciPub Repository](https://github.com/scienceltrs/SciPub/blob/main/pathNames.py) and was modified for this project.
