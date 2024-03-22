@@ -19,8 +19,8 @@ fe_2023w2_path = 'output/fe_2023W2_output.csv'
 mt_2023w1_path = 'output/mt_2023W1_output.csv'
 fe_2023w1_path = 'output/fe_2023W1_output.csv'
 
-mt_2023S_path  = 'output/mt_2023S_output.csv'
-fe_2023S_path  = 'output/fe_2023S_output.csv'
+mt_2023s_path  = 'output/mt_2023S_output.csv'
+fe_2023s_path  = 'output/fe_2023S_output.csv'
 
 mt_2022w2_path = 'output/mt_2022W2_output.csv'
 fe_2022w2_path = 'output/fe_2022W2_output.csv'
@@ -50,8 +50,8 @@ fe_2023w2_path = os.path.abspath(fe_2023w2_path)
 mt_2023w1_path = os.path.abspath(mt_2023w1_path)
 fe_2023w1_path = os.path.abspath(fe_2023w1_path)
 
-mt_2023S_path  = os.path.abspath(mt_2023S_path )
-fe_2023S_path  = os.path.abspath(fe_2023S_path )
+mt_2023s_path  = os.path.abspath(mt_2023s_path )
+fe_2023s_path  = os.path.abspath(fe_2023s_path )
 
 mt_2022w2_path = os.path.abspath(mt_2022w2_path)
 fe_2022w2_path = os.path.abspath(fe_2022w2_path)
